@@ -23,7 +23,7 @@ function Contact () {
     const submitEmail = async (e) => {
         e.preventDefault();
         console.log({ mailerState });
-        const response = await fetch("https://cv-mateusz.herokuapp.com/send", {
+        const response = await fetch("https://mateusz-cv.herokuapp.com/send", {
           method: "POST",
           headers: {
             "Content-type": "application/json",
