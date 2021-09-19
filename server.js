@@ -57,7 +57,7 @@ app.post("/send", function (req, res) {
  let mailOptions = {
    from: `${req.body.mailerState.email}`,
    to: "mazurek321.dev@gmail.com",
-   subject: `Nowa wiadomość od ${req.body.mailerState.email}, temat: ${req.body.mailerState.subject}`,
+   subject: `Nowa wiadomość od ${req.body.mailerState.name} ( ${req.body.mailerState.email} ), temat: ${req.body.mailerState.subject}`,
    text: `${req.body.mailerState.message}`,
  };
 
