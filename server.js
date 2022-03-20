@@ -25,8 +25,7 @@ const oauth2Client = new OAuth2(
 );
 
 oauth2Client.setCredentials({
-	refresh_token:
-		"1//04q9AQxmJRUBeCgYIARAAGAQSNwF-L9IrX_9culHkw6g_0Or5bmEHPwZ5t95di1kbxq4B4PfNRy9mFHW6iNyAu8UtXm2OeYyk-50",
+	refresh_token: process.env.OAUTH_REFRESH_TOKEN,
 });
 const accessToken = oauth2Client.getAccessToken();
 
