@@ -44,7 +44,7 @@ function Certificates() {
 							style={{ width: "3rem", marginRight: "0.7rem" }}
 							alt="Ikona kursu online"
 						/>{" "}
-						Certyfikat ukończenia kursu „The Complete 2021 Web Development
+						Certyfikaty ukończenia kursu „The Complete 2021 Web Development
 						Bootcamp” oraz cyklu pięciu kursów Samuraj Programowania na
 						platformie Udemy
 					</li>
